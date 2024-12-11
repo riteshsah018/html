@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing to ensure consistent box model */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Add font-family for consistency */
+    background-color: #f5f5f5; /* Set a light background color */
+    padding: 0;
+}
+
+      /* Header Styles */
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-shadow: 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan,
+                 0px 0px 80px cyan;
+}
+
+
+span{
+    color: red;
+}
+
+header h3 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-left: 130px;
+    text-shadow: 0px 0px 10px blueviolet,
+                 0px 0px 20px blueviolet,
+                 0px 0px 40px blueviolet,
+                 0px 0px 80px blueviolet;
+}
+
+header .header-text {
+    margin: 65px;
+}
+
+header .header-text:hover{
+    transform: scale(1.2);
+}
+
+.about{
+    text-align:left;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    }
+    .about a{
+        text-decoration: none;
+        font: style 50px; ;
+        color: #f5f5f5;
+        font-weight: bold;
+        text-shadow: 0px 0px 10px cyan,
+                     0px 0px 20px cyan,
+                     0px 0px 40px cyan,
+                     0px 0px 80px cyan;
+    }
+    
+    
+    .about a:hover{
+        color: blueviolet;
+        
+    }
+
+
+.ask-me{
+text-align: right;
+padding-right: 50px;
+text-decoration: none;
+font-size: 25px;
+display: inline-block;
+padding-left: 50px;
+}
+
+.ask-me a{
+    text-decoration: none;
+    font-style: 50px;
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan,
+                 0px 0px 80px cyan;
+}
+
+
+.ask-me a:hover{
+    color: blueviolet;
+}
+ header .ask-me:hover{
+    transform: scale(1.1);
+ }
+
+
+section .audio-boder {
+    background-color: rgba(25, 31, 52, 1);
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+    /* Background Video Styles */
+
+.background-video {
+    position: fixed; /* Fix the video in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Keep the video in the background */
+}
+
+.bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure the video covers the entire screen */
+}
+
+     /* Audio Section Styles */
+
+section .audio {
+    color: bisque;
+    font-size: 30px; /* Adjusted font size for readability */
+    padding-left: 300px; /* Adjusted padding */ 
+    text-align:center; /* Ensured text is centered */
+    margin-top: 20px; /* Added margin for spacing */
+    display: flex;
+    gap: 25px;
+}
+
+section .audio-container1:hover{
+    transform: scale(1.1);
+    
+}
+section .audio-container2:hover{
+    transform: scale(1.1);
+    
+}
+section .audio-container3:hover{
+    transform: scale(1.1);
+    
+}
+
+section .video-boder {
+    background-color:  rgba(25, 31, 52, 1);
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+     /* Video Section */
+section div.vlog-video {
+    margin: 100px auto; /* Centered the vlog-video */
+    max-width: 80%; /* Adjusted the max-width to allow more flexibility */
+    text-align: center; /* Centered the video */
+    padding: 10px;
+}
+
+section .vlog-video:hover{
+    transform: scale(1.1);
+}
+
+video {
+    width: 100%; /* Make the video responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: add border-radius for rounded corners */
+}
+
+     /* Footer Styles */
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.table-footer{
+    color: black;
+    background-color:gray;
+    margin: 50px;
+    padding: 30px;
+}
+
+th{
+    padding-left: 100px;
+    text-align: center;
+}
+td{
+    padding-left: 100px;
+    text-align: center;
+}
