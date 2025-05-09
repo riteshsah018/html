@@ -184,14 +184,15 @@ video {
 
      /* Footer Styles */
 .footer_section{
-    background-color:gray;
+   
     padding:10px;
-    
 }
+
 .footer_section h2{
     color:black;
     font-size:10px;
     font-weight:bold;
     text-align:center;
+    background-color:gray;
 }
 
