@@ -185,12 +185,12 @@ video {
      /* Footer Styles */
 .footer_section {
     background-color: rgba(25, 31, 52, 1);
-    padding:30px;
+    padding:20px;
 }
 
 .footer_section h2{
     color:white;
-    font-size:30px;
+    font-size:15px;
     font-weight:bold;
     letter-spacing: 2px;
     text-align:center;
