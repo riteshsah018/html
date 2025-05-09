@@ -183,23 +183,15 @@ video {
 }
 
      /* Footer Styles */
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-.table-footer{
-    color: black;
+.footer_section{
     background-color:gray;
-    margin: 50px;
-    padding: 30px;
+    padding:10px;
+    
+}
+.footer_section h2{
+    color:black;
+    font-size:10px;
+    font-weight:bold;
+    text-align:center;
 }
 
-th{
-    padding-left: 100px;
-    text-align: center;
-}
-td{
-    padding-left: 100px;
-    text-align: center;
-}
