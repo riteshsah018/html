@@ -184,7 +184,7 @@ video {
 
      /* Footer Styles */
 .footer_section{
-   
+    background-color: rgba(25, 31, 52, 1);
     padding:10px;
 }
 
@@ -193,6 +193,6 @@ video {
     font-size:10px;
     font-weight:bold;
     text-align:center;
-    background-color:gray;
+    
 }
 
